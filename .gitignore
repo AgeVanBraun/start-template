@@ -36,3 +36,4 @@ out/
 # Environment / sensible Daten
 # -----------------------
 .env
+assets/.DS_Store
