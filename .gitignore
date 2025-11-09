@@ -1,1 +1,38 @@
+# -----------------------
+# macOS
+# -----------------------
 .DS_Store
+
+# -----------------------
+# Node.js / JavaScript
+# -----------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# -----------------------
+# Build / Output Ordner (Angular / Tailwind / andere Tools)
+# -----------------------
+dist/
+build/
+out/
+*.css.map
+*.js.map
+
+# -----------------------
+# Editor / IDE
+# -----------------------
+.vscode/
+
+# -----------------------
+# Log-Dateien
+# -----------------------
+*.log
+
+# -----------------------
+# Environment / sensible Daten
+# -----------------------
+.env
