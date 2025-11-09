@@ -1,11 +1,54 @@
+/* =======================
+   Start CSS – Basis Styles
+   ======================= */
+
+/* Universal Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Body */
 body {
-  font-family:'Roboto', sans-serif;
-  background-color: rgb(40, 42, 54);
-  color: bisque;
-  padding: 32px;
+  font-family: "Roboto", sans-serif; /* moderne, gut lesbare Schrift */
+  background-color: rgb(40, 42, 54); /* dunkler Hintergrund */
+  color: bisque; /* gut lesbarer Text */
+  padding: 32px; /* Abstand vom Rand */
+  line-height: 1.5; /* bessere Lesbarkeit */
+}
+
+/* Links */
+a {
+  color: inherit; /* Links übernehmen Textfarbe */
+  text-decoration: none;
+}
+
+/* Überschriften */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600; /* moderates Gewicht für bessere Lesbarkeit */
+}
+
+/* Listen */
+ul,
+ol {
+  padding-left: 1.5rem; /* Standard-Einrückung */
+}
+
+/* Bilder */
+img {
+  max-width: 100%; /* responsive Bilder */
+  display: block;
+}
+
+/* Optional: Container-Klasse für Sections */
+.container {
+  max-width: 1200px;
+  margin: 0 auto; /* zentriert */
+  padding: 0 16px;
 }
